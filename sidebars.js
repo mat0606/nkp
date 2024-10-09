@@ -2,7 +2,7 @@ module.exports = {
   tutorialSidebar:[
     {
       type: 'category',
-      label: 'NCM Self Service 101',
+      label: 'NCM Self Service & NKP',
       items: ['what_is_calm/what_is_calm',
               'calm_project/calm_project',
               'calm_project/calm_environment',
@@ -15,4 +15,4 @@ module.exports = {
   ],
 };
 
-export default sidebars;
+
