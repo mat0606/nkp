@@ -5,6 +5,7 @@ module.exports = {
       label: 'NCM Self Service & NKP',
       items: ['what_is_calm/what_is_calm',
               'calm_project/calm_project',
+              'calm_project/snapshot_policy_project',
               'calm_project/calm_environment',
               'what_is_calm/blueprint',
               'what_is_calm/application',
