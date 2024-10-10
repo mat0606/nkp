@@ -2,7 +2,7 @@ module.exports = {
   tutorialSidebar:[
     {
       type: 'category',
-      label: 'NCM Self Service & NKP',
+      label: 'NCM Self Service',
       items: ['what_is_calm/what_is_calm',
               'calm_project/calm_project',
               'calm_project/calm_environment',
@@ -12,6 +12,12 @@ module.exports = {
               'what_is_calm/runbook',
               'ncm_marketplace2/ncm_marketplace2',                          
             ],
+    },
+    {
+      type: 'category',
+      label: 'Nutanix Kubernetes Platform (NKP)',
+      items: ['provison_nkp/provision_nkp',
+             ],
     },
   ],
 };
