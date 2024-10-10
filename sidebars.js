@@ -16,7 +16,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Nutanix Kubernetes Platform (NKP)',
-      items: ['provison_nkp/provision_nkp',
+      items: ['provision_nkp/provision_nkp',
              ],
     },
   ],
