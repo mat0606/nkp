@@ -5,7 +5,7 @@ title: "Environment in Project"
 # Product Configurations:
 
 1.  Calm VM 3.8.1 on PC2024.1
-2.  Infrastructure cluster on AOS 6.8.0.5 on PC2024.1.01
+2.  Infrastructure cluster on AOS 6.8.1.5 on PC2024.2
 
 # Configure the Environment in Project
 
@@ -83,7 +83,7 @@ marketplace blueprint.
 
 ### Create Credential used in Marketplace Launch for Linux Marketplace Items
 
-1.  Create the credential for ROCKY. Fill out the following fields:
+1.  Create the credential for **ROCKY**. Fill out the following fields:
 
     -   **Credential Name** - ROCKY
     -   **Username** - nutanix
@@ -139,15 +139,27 @@ marketplace blueprint.
 
     ![](images/Environment-12.png)
 
-4.  Create the credential for ROCKY 2 Credential. Fill out the following fields:
+4.  Create the credential for **ROCKY 2 Credential**. Fill out the following fields:
 
     -   **Credential Name** - ROCKY 2 Credential
     -   **Username** - nutanix
     -   **Secret Type** - Password
     -   **Password** - Request from the trainer
 
+5.  Click on **Done**. Click on **Next**
 
-3.  Click on **Save Environment**.
+6.  Click on **+ Add Credential**.  
+
+    ![](images/Environment-12.png)
+
+7.  Create the credential for **CalmVM Credential**. Fill out the following fields:
+
+    -   **Credential Name** - CalmVM Credential
+    -   **Username** - admin
+    -   **Secret Type** - Password
+    -   **Password** - Request from the trainer
+
+8.  Click on **Save Environment**.
 
     ![](images/Environment-13.png)
 
@@ -296,7 +308,20 @@ marketplace blueprint.
 
     ![](images/Win-Environment-10.png)
 
-5.  Click on **Save Environment**
+5.  Click on **+ Add Credential**
+
+    ![](images/Win-Environment-9.png)
+
+6.  Create the credential **USER_CRED** to store the credential for domain administrator
+
+    -   **Credential Name** - USER_CRED
+    -   **Username** - tenant
+    -   **Secret Type** - password
+    -   **Password** - Retrieve the password from the trainer
+
+    ![](images/Win-Environment-10.png)
+
+7.  Click on **Save Environment**
 
 ## Verify the Windows Environment
 
